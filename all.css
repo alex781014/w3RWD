@@ -1,0 +1,363 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Noto Sans',
+        'sans-serif';
+}
+
+.bg-primary {
+    background: #AA0601;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 88px;
+}
+
+.header img {
+    width: 80px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-link-color {
+    color: white;
+}
+
+.header ul li a {
+    text-decoration: none;
+    margin-right: 64px;
+    font-size: 20px;
+}
+
+.header ul li:last-child a {
+    margin-right: 0;
+}
+
+.banner {
+    height: 840px;
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true");
+}
+
+.bg-cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.txt-primary {
+    color: #650300;
+}
+
+.txt-secondary {
+    color: #AA0601;
+}
+
+.mr-3 {
+    margin-right: 30px;
+}
+
+.mr3-2 {
+    margin-right: 32px;
+}
+
+.mr3-8 {
+    margin-right: 38px;
+}
+
+.mr-4 {
+    margin-right: 48px;
+}
+
+.mr-8 {
+    margin-right: 64px;
+}
+
+.mb-2 {
+    margin-bottom: 16px;
+}
+
+.mb-5 {
+    margin-bottom: 40px;
+}
+
+.mb-4 {
+    margin-bottom: 32px;
+}
+
+.mb-6 {
+    margin-bottom: 60px;
+}
+
+.mb-8 {
+    margin-bottom: 64px;
+}
+
+.pt-6 {
+    padding-top: 36px;
+}
+
+.pt-8 {
+    padding-top: 64px;
+}
+
+.pb-2 {
+    padding-bottom: 20px;
+}
+
+.pb-8 {
+    padding-bottom: 64px;
+}
+
+.pb-10 {
+    padding-bottom: 80px;
+}
+
+.bg-secondary {
+    background: #AA06010D;
+}
+
+.fz-2 {
+    font-size: 24px;
+}
+
+.fz-3 {
+    font-size: 48px;
+}
+
+.fz-4 {
+    font-size: 64px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.banner-content h1 {
+    font-size: 36px;
+}
+
+.banner-content h2 {
+    font-family: 'Noto Sans',
+        sans-serif;
+}
+
+
+.txt-center {
+    text-align: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.introduce h2 {
+    font-family: 'Noto Sans';
+}
+
+.introduct-list li {
+    width: 25%;
+    margin-right: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduct-list li:last-child {
+    margin-right: 0;
+}
+
+.introduct-list li h3 {
+    font-family: 'Noto Sans';
+    margin-bottom: 4px;
+}
+
+.introduct-list li p {
+    font-family: 'Noto Sans';
+    line-height: 24px;
+}
+
+.product-list img {
+    width: 50%;
+}
+
+.product-list li p {
+    align-items: center;
+    font-style: italic;
+}
+
+.branded {
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true");
+}
+
+.branded-item {
+    position: relative;
+}
+
+.branded-item span {
+    font-size: 72px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+}
+
+.branded-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.customer-items-content {
+    width: 25%;
+    border: 1px solid #DEE2E6;
+}
+
+.customer-items-content img {
+    margin-bottom: 14px;
+}
+
+.customer-items-txt {
+    padding: 0 16px;
+    font-family: 'Noto Sans';
+}
+
+.customer-items-content h3 {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.customer-items-content p {
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.customer-items-content h4 {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #707070;
+}
+
+.contact-list {
+    width: 66%;
+}
+
+.contact-list h2 {
+    margin-bottom: 24px;
+}
+
+.contact-list p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    line-height: 24px;
+}
+
+
+.form-group input {
+    width: 100%;
+    padding: 14px 0 14px 16px;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 14px 0 14px 16px;
+}
+
+.form-group-check {
+    margin-bottom: 42px;
+}
+
+.submit {
+    padding: 16px 143px;
+    margin: 0 auto;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.info-list {
+    border-bottom: 1px solid white;
+}
+
+.info-list li:first-child img {
+    margin-right: 23px;
+}
+
+.imfo-list:first-child li {
+    margin-bottom: 17px;
+}
+
+.info-list img {
+    margin-right: 12px;
+}
+
+.info-list a {
+    font-size: 36px;
+}
+
+.footer-copyright {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
